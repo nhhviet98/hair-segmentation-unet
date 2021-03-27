@@ -18,8 +18,7 @@ python predict.py
 # Train your own models
 If you want to train your own models, you can use cmd below:
 ```
-cd vietnhh
-cd HairSegmentation
+cd hair-segmentation-unet
 python hair_segmentation.py
 ```
 Link to download dataset is attached in my notebook (HairSegmentation.ipynb).
