@@ -1,0 +1,18 @@
+version: "2.3"
+
+services:
+  app:
+    image: thanglon:latest
+    runtime: nvidia
+    environment:
+      NVIDIA_VISIBLE_DEVICES: all
+      NVIDIA_DRIVER_CAPABILITIES: all
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities:
+                - gpu
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
