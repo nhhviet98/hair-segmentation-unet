@@ -1,6 +1,32 @@
 # AI_Internship
 This is vietnhh branch, AI intership at BAP software. 
 
+# Libraries
+- TensorFlow 2.2.0
+- cv2
+- numpy
+- matplotlib
+
+# Hair Segmentation
+You can try to predict image in testing by cmd below:
+```
+cd vietnhh
+cd HairSegmentation
+python predict.py
+```
+
+# Train your own models
+If you want to train your own models, you can use cmd below:
+```
+cd vietnhh
+cd HairSegmentation
+python hair_segmentation.py
+```
+Link to download dataset is attached in my notebook (HairSegmentation.ipynb).
+
+# Docker
+https://hub.docker.com/repository/docker/nhhviet98/hair-segmentation
+
 ### Folder tree:
 ```
 ├───HairSegmentation
@@ -25,27 +51,6 @@ This is vietnhh branch, AI intership at BAP software.
 │   ├───models
 │   │   └───__pycache__
 │   └───__pycache__
-```
-# Libraries
-- TensorFlow 2.2.0
-- cv2
-- numpy
-- matplotlib
-
-# Hair Segmentation
-You can try to predict image in testing by cmd below:
-```
-cd vietnhh
-cd HairSegmentation
-python predict.py
-```
-
-# Train models
-If you want to train with another data set you can use cmd below:
-```
-cd vietnhh
-cd HairSegmentation
-python hair_segmentation.py
 ```
 
 # Model Structure
